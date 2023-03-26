@@ -1,11 +1,11 @@
-.btn {
+.download-btn {
     background-color: rgb(231, 214, 19);
     position: absolute;
     display: flex;
     margin: 0.2rem 5rem;
 }
 
-.btn:hover {
+.download-btn:hover {
     background-color: rgb(244, 233, 108);
     transition: 0.3s;
 }
