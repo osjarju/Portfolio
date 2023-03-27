@@ -1,11 +1,15 @@
-.download-btn {
-    background-color: rgb(231, 214, 19);
+/* .download-btn {
+    color: black;
+    text-align: center;
+    width: 15rem;
+    height: 3rem;
+    background-color: rgba(205, 231, 10, 0.886);
     position: absolute;
     display: flex;
     margin: 0.2rem 5rem;
 }
 
 .download-btn:hover {
-    background-color: rgb(244, 233, 108);
+    background-color: rgb(238, 229, 129);
     transition: 0.3s;
-}
+} */
