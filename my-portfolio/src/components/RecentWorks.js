@@ -9,13 +9,13 @@ const RecentWorks = (props) => {
         //     <h1 className='project-heading'>projects</h1>
         //     <div className='project-container'>
         <div className='project-card'>
-            <img src={props.imgsrc} alt="image" />
+            <img src={props.imgsrc} alt="true" />
             <h2 className='project-title'>{props.title}</h2>
             <div className='description'>
                 <p>{props.description}</p>
                 <div className='project-btns'>
-                    <NavLink to={props.view} className="btn">VIEW</NavLink>
-                    <NavLink to={props.source} className="btn">SOURCE</NavLink>
+                    <NavLink to={props.view} className="btn" target="_blank" rel="noopener noreferrer">VIEW</NavLink>
+                    <NavLink to={props.source} className="btn" target="_blank" rel="noopener noreferrer">SOURCE</NavLink>
                 </div>
             </div>
         </div>
@@ -24,4 +24,4 @@ const RecentWorks = (props) => {
     )
 }
 
-export default RecentWorks
+export default RecentWorks;

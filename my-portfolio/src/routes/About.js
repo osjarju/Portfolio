@@ -10,8 +10,9 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <ProjectsMid heading="ABOUT." text="So much beauty we forget and get reminded,
-       that we can be anywhere and find it." />
+      <ProjectsMid heading="ABOUT ME." text="I am originally from The Gambia. Lived in the US
+      for a little over 10 years now. Through this period, I have been resident in the
+      state of Alaska, Maryland and now Washington State." />
       {/* <CV /> */}
       <AboutContent />
       <Footer />

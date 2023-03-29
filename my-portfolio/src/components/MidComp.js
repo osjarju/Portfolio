@@ -13,7 +13,7 @@ const MidComp = () => {
                 <p>HI, I'M A</p>
                 <h1>Full Stack Developer</h1>
                 <div>
-                    <Link to="/project" className='btn'>Projects</Link>
+                    <Link to="/portfolio" className='btn'>Projects</Link>
                     <Link to="/contact" className='btn btn-light'>Contact</Link>
                 </div>
             </div>

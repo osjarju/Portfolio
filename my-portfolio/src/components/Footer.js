@@ -1,6 +1,7 @@
 import './footerStyles.css';
 import React from 'react';
-import { FaFacebook, FaGithub, FaHome, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -35,15 +36,15 @@ const Footer = () => {
                         considerable amounts of experiences in various
                         critical technologies. </p>
                     <div className='socials'>
-                        <FaFacebook size={30} style={{
+                        <NavLink to='https://www.linkedin.com/in/ousman-jarju-43a1b1270/' target="_blank" rel="noopener noreferrer"> <FaLinkedin size={30} style={{
                             color: "white", marginRight: "1rem"
-                        }} />
-                        <FaTwitter size={30} style={{
+                        }} /></NavLink>
+                        <NavLink to='https://twitter.com/osjarju' target="_blank" rel="noopener noreferrer"><FaTwitter size={30} style={{
                             color: "white", marginRight: "1rem"
-                        }} />
-                        <FaGithub size={30} style={{
+                        }} /></NavLink>
+                        <NavLink to='https://github.com/osjarju' target="_blank" rel="noopener noreferrer"><FaGithub size={30} style={{
                             color: "white", marginRight: "1rem"
-                        }} />
+                        }} /></NavLink>
                     </div>
                 </div>
             </div>

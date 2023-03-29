@@ -9,7 +9,7 @@ const Portfolio = () => {
     return (
         <div>
             <Navbar />
-            <ProjectsMid heading="PROJECTS." text="Recent works" />
+            <ProjectsMid heading="PROJECTS." text="Some of my most recent works." />
             <Works />
             <Footer />
         </div>

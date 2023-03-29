@@ -1,52 +1,52 @@
-import project1 from '../assets/Ous_Walk.jpg';
-import project2 from '../assets/Ous_Camera.webp';
-import project3 from '../assets/Ous_Film.jpg';
-import project4 from '../assets/Ous_Profile.jpg';
-import project5 from '../assets/Ousman_SAYEED.jpg';
-import project6 from '../assets/Ous_Red.jpg';
+import project1 from '../assets/Booking.jpg';
+import project2 from '../assets/Africa.jpg';
+import project3 from '../assets/Team.jpg';
+import project4 from '../assets/Weather.jpg';
+import project5 from '../assets/Note.jpg';
+import project6 from '../assets/Portfolio.jpg';
 
 const ProjectDataCard = [
     {
         imgsrc: project1,
-        title: "project 1",
-        description: "This is a description for project 1",
-        view: "https://www.rebelvzn.com/",
-        source: "https://github.com/osjarju/Portfolio"
+        title: "Blind-Booking",
+        description: "This is a group project for an app to quickly acquire the cheapest flight ticket to your favorite vacation destinations.",
+        view: "http://blind-booking.herokuapp.com/",
+        source: "https://github.com/connerlaursen/Blind-Booking"
     },
     {
         imgsrc: project2,
-        title: "project 2",
-        description: "This is a description for project 2",
+        title: "African Quiz",
+        description: "This is a quiz app that helps users to learn useful facts about the continent of Africa.",
         view: "https://www.rebelvzn.com/",
-        source: "https://github.com/osjarju/Portfolio"
+        source: "https://github.com/osjarju/Resub---Week-4-African-Quiz"
     },
     {
         imgsrc: project3,
-        title: "project 3",
-        description: "This is a description for project 3",
+        title: "Team Generator",
+        description: "This app enables a user to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.",
         view: "https://www.rebelvzn.com/",
-        source: "https://github.com/osjarju/Portfolio"
+        source: "https://github.com/osjarju/Team-Profile-Generator"
     },
     {
         imgsrc: project4,
-        title: "project 4",
-        description: "This is a description for project 4",
+        title: "Weather-Dashboard",
+        description: "Five Day Forecast - an app for searching the weather",
         view: "https://www.rebelvzn.com/",
-        source: "https://github.com/osjarju/Portfolio"
+        source: "https://github.com/osjarju/Week-6-Challenge-Weather-Dashboard"
     },
     {
         imgsrc: project5,
-        title: "project 5",
-        description: "This is a description for project 5",
+        title: "Note-Taker",
+        description: "This is an application that can be used to write, save and delete notes as needed",
         view: "https://www.rebelvzn.com/",
-        source: "https://github.com/osjarju/Portfolio"
+        source: "https://github.com/osjarju/Note-Taker"
     },
     {
         imgsrc: project6,
-        title: "project 6",
-        description: "This is a description for project 6",
+        title: "First Portfolio",
+        description: "This is my first web portfolio built with only HTML and CSS.",
         view: "https://www.rebelvzn.com/",
-        source: "https://github.com/osjarju/Portfolio"
+        source: "https://github.com/osjarju/Web_Portfolio"
     },
 ];
 
